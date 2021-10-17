@@ -123,7 +123,7 @@ async def start(bot, message):
         InlineKeyboardButton('S𝙚𝙧𝙞𝙚𝙨 ℍ𝙪𝙗 📺', url='https://t.me/Series_MH'),
         InlineKeyboardButton('S̷𝕙𝕒𝕣𝕖 🎗 S̷𝕦𝕡𝕡𝕠𝕣𝕥', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
     ],[
-        InlineKeyboardButton('📡 ʝ𝓸𝓲𝓷 O̴𝓾𝓻 𝖀𝓹𝓭𝓪𝓽𝓮𝓼 ℭ𝓱𝓪𝓷𝓷𝓮𝓵', url='https://t.me/movies_Hubh2')
+        InlineKeyboardButton('📡 ʝ𝓸𝓲𝓷 O̴𝓾𝓻 U̶𝓹𝓭𝓪𝓽𝓮𝓼 ℭ𝓱𝓪𝓷𝓷𝓮𝓵', url='https://t.me/movies_Hubh2')
    ]]
             )
         )
