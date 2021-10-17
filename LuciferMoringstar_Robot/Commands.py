@@ -121,7 +121,7 @@ async def start(bot, message):
         InlineKeyboardButton('🎭 ℳ𝐨𝐯𝐢𝐞𝐬 ℋ𝐮𝐛 ℂ𝐡𝐚𝐧𝐧𝐞𝐥 📢', url='https://t.me/joinchat/lUOk6p8Lo445MmNl')
     ],[
         InlineKeyboardButton('S𝙚𝙧𝙞𝙚𝙨 ℍ𝙪𝙗 📺', url='https://t.me/Series_MH'),
-        InlineKeyboardButton('S𝕙𝕒𝕣𝕖 🎗 S𝕦𝕡𝕡𝕠𝕣𝕥', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
+        InlineKeyboardButton('S̷𝕙𝕒𝕣𝕖 🎗 S̷𝕦𝕡𝕡𝕠𝕣𝕥', url='https://t.me/share/url?url=https://t.me/movies_Hubh2')
     ],[
         InlineKeyboardButton('📡 𝓙𝓸𝓲𝓷 𝓞𝓾𝓻 𝓤𝓹𝓭𝓪𝓽𝓮𝓼 𝓒𝓱𝓪𝓷𝓷𝓮𝓵', url='https://t.me/movies_Hubh2')
    ]]
