@@ -115,15 +115,15 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('𝔍𝔬𝔦𝔫 𝔒𝔲𝔯 𝔘𝔭𝔡𝔞𝔱𝔢𝔰 ℭ𝔥𝔞𝔫𝔫𝔢𝔩', url='https://t.me/movies_Hubh2')
+        InlineKeyboardButton('𝒪𝓊𝓇 𝒢𝓇𝑜𝓊𝓅', url='https://t.me/movies_Hubh2'),
+        InlineKeyboardButton('〽️ 𝙉𝙚𝙬 𝙍𝙚𝙡𝙚𝙖𝙨𝙚 📣', url='https://t.me/joinchat/aG4_u8iHx31mNzVl')
     ],[
-        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/uAHl5jvnrhk')
+        InlineKeyboardButton('𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐮𝐛 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢', url='https://youtu.be/uAHl5jvnrhk')
     ],[
         InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
         InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/Mo_Tech_YT')
     ],[
-        InlineKeyboardButton('𝔍𝔬𝔦𝔫 𝔒𝔲𝔯 𝔘𝔭𝔡𝔞𝔱𝔢𝔰 ℭ𝔥𝔞𝔫𝔫𝔢𝔩', url='https://t.me/movies_Hubh2')
+        InlineKeyboardButton('📡 𝓙𝓸𝓲𝓷 𝓞𝓾𝓻 𝓤𝓹𝓭𝓪𝓽𝓮𝓼 𝓒𝓱𝓪𝓷𝓷𝓮𝓵', url='https://t.me/movies_Hubh2')
    ]]
             )
         )
