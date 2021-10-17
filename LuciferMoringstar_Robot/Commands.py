@@ -115,11 +115,16 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
-                ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
-                ]]
+        InlineKeyboardButton('👨‍💼 𝙼𝚊𝚜𝚝𝚎𝚛', url='https://t.me/MRK_YT'),
+        InlineKeyboardButton('𝙷𝚎𝚕𝚙 🤔', callback_data="help")
+    ],[
+        InlineKeyboardButton('🖥️ 𝚃𝚞𝚝𝚘𝚛𝚒𝚊𝚕 𝚅𝚒𝚍𝚎𝚘 🖥️', url='https://youtu.be/uAHl5jvnrhk')
+    ],[
+        InlineKeyboardButton('🗣️ 𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/Mo_Tech_group'),
+        InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜 🤖', url='https://t.me/Mo_Tech_YT')
+    ],[
+        InlineKeyboardButton('𝔍𝔬𝔦𝔫 𝔒𝔲𝔯 𝔘𝔭𝔡𝔞𝔱𝔢𝔰 ℭ𝔥𝔞𝔫𝔫𝔢𝔩', url='')
+   ]]
             )
         )
         StopPropagation
