@@ -329,7 +329,7 @@ async def delete(bot, message):
         await msg.edit('File is successfully deleted from database')
     else:
         await msg.edit('File not found in database')
-@Client.on_message(filters.command('mh'))
+@Client.on_message(filters.command('help'))
 async def bot_info(bot, message):
     buttons = [
         [
@@ -337,4 +337,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
         ]
         ]
-    await message.reply(text=f"{MH}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
