@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please <u>Try Again</u> After Joining ]**",
+                    text="**നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -110,7 +110,7 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg', caption=START_MSG.format(message.from_user.mention),
+        await message.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg','https://telegra.ph/file/8066f91a2673353b547c2.jpg', caption=START_MSG.format(message.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
     [[
         InlineKeyboardButton('🗣️ 𝒪𝓊𝓇  𝒢𝓇𝑜𝓊𝓅 ', url='https://t.me/movies_Hubh2'),
