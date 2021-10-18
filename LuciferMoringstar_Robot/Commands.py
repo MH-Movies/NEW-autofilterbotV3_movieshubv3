@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="<b>നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]</b>",
+                    text=f"<b>നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
