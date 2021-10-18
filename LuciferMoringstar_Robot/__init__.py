@@ -10,10 +10,10 @@ from .Channel import (
    GENRES
 )
 
-HELP = """
+INFORMATION = """
 Basic Commads
 
-/Help :- check am Alive
+/Start :- check am Alive
 
 Bot Owner Only
 /broadcast Replay Any Message or Media
@@ -27,7 +27,7 @@ Bot Owner Only
 
 """
 
-ABOUT = """
+NO ENTRY = """
 ➥ Name :  Auto Filter V3
     
 ➥ Creator : [Naughty PROFESSOR](
