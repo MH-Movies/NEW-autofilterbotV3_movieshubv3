@@ -6,6 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Config import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, TUTORIAL, BROADCAST_CHANNEL, DB_URL, SESSION, ADMIN_ID    
 from LuciferMoringstar_Robot.Utils import Media, get_file_details 
 from LuciferMoringstar_Robot.Broadcast import broadcast
+from LuciferMoringstar_Robot import HELP
 from LuciferMoringstar_Robot import ABOUT
 from LuciferMoringstar_Robot.Channel import handle_user_status
 from Database import Database
@@ -45,7 +46,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐮𝐛 നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]**",
+                    text="** നിങ്ങൾ ഞങ്ങളുടെ ചാനലിൽ ഇതുവരെ ജോയിൻ ചെയ്തിട്ടില്ല ജോയിൻ ചെയ്തതിന് ശേഷം വീണ്ടും ശ്രമിക്കുക\n\n[ You Have Not Yet Joined Our Channel  Please Try Again After Joining ]**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
