@@ -27,7 +27,7 @@ Bot Owner Only
 
 """
 
-INFORMATIONS = """
+INFORMATION = """
 ➥ Name :  Auto Filter V3
     
 ➥ Creator : [Naughty PROFESSOR](
