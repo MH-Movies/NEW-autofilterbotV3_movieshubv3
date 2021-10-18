@@ -110,7 +110,7 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg''https://telegra.ph/file/8066f91a2673353b547c2.jpg', caption=START_MSG.format(message.from_user.mention),
+        await message.reply_photo(photo='https://telegra.ph/file/e3fd31093022ece589a56.jpg', caption=START_MSG.format(message.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
     [[
         InlineKeyboardButton('🗣️ 𝒪𝓊𝓇  𝒢𝓇𝑜𝓊𝓅 ', url='https://t.me/movies_Hubh2'),
