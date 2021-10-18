@@ -10,7 +10,7 @@ from .Channel import (
    GENRES
 )
 
-MH = """
+HELP = """
 Basic Commads
 
 /Start :- check am Alive
