@@ -27,7 +27,7 @@ Bot Owner Only
 
 """
 
-NO ENTRY = """
+NOENTRY = """
 ➥ Name :  Auto Filter V3
     
 ➥ Creator : [Naughty PROFESSOR](
