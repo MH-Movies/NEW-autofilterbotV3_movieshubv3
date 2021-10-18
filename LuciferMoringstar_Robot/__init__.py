@@ -10,7 +10,7 @@ from .Channel import (
    GENRES
 )
 
-INFORMATION = """
+MH = """
 Basic Commads
 
 /Start :- check am Alive
@@ -27,7 +27,7 @@ Bot Owner Only
 
 """
 
-NOENTRY = """
+INFORMATIONS = """
 ➥ Name :  Auto Filter V3
     
 ➥ Creator : [Naughty PROFESSOR](
