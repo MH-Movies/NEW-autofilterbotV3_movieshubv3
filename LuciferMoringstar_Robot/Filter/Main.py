@@ -62,7 +62,7 @@ async def filter(client, message):
                 filesize = f" [{get_size(file.file_size)}]"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}"),
-                     InlineKeyboardButton(text=f"{filesize}",callback_data=f"pr0fess0r_99#{file_id}")
+                     InlineKeyboardButton(text=f"{file_size}",callback_data=f"pr0fess0r_99#{file_id}")
                     ]
                     )
         else:
@@ -129,10 +129,10 @@ async def group(client, message):
             for file in files:
                 file_id = file.file_id
                 filename = f" {file.file_name}", 
-                filessize = f" [{get_size(file.file_size)}]"
+                filesize = f" [{get_size(file.file_size)}]"
                 btn.append(
                     [InlineKeyboardButton(text=f"{filename}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}"),
-                     InlineKeyboardButton(text=f"{filesize}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")
+                     InlineKeyboardButton(text=f"{file_size}", url=f"https://telegram.dog/{nyva}?start=pr0fess0r_99_-_-_-_{file_id}")
                     ]
                 )
         else:
