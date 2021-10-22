@@ -274,21 +274,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
-        elif query.data == "help":
+        elif query.data == "mh2":
             buttons = [
                 [
                     InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"{HELP}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"{MH2}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
-        elif query.data == "about":
+        elif query.data == "information":
             buttons = [
                 [
                     InlineKeyboardButton('Making Video', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"{INFORMATION}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
         elif query.data.startswith("pr0fess0r_99"):
